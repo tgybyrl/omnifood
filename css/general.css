@@ -33,6 +33,8 @@ Paragraph default: 1.6
 #45260a
 - Accents:
 - Greys:
+#888
+#767676 (lightest grey allowed on #fff)
 #6f6f6f (lightest grey allowed on #fdf2e9
 #555
 #333
@@ -65,6 +67,7 @@ html {
   /* font-size: 10px; */
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size setting */
+  /* Sonuç olarak 1rem = 10px */
   font-size: 62.5%;
 }
 
