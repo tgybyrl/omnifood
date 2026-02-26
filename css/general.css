@@ -70,6 +70,9 @@ html {
   /* Sonuç olarak 1rem = 10px */
   font-size: 62.5%;
   overflow-x: hidden;
+
+  /* Does NOT work on safari */
+  scroll-behavior: smooth;
 }
 
 body {
